@@ -19,6 +19,7 @@
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true
   },
+  "skipLibCheck":true,
   "files": [],
   "references": [
     {

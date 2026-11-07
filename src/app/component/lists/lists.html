@@ -1,0 +1,22 @@
+<div class="container-fluid mt-5">
+  <header>
+    <h3 class="text-center alert alert-info">List Task</h3>
+  </header>
+
+  <div class="row">
+    <div class="col-md-8 offset-md-2">
+
+      <div *ngFor="let product of list1">
+        <h2>Products List {{product.productsText}}</h2>
+
+        <ul class="list-group">
+          <li class="list-group-item"
+              *ngFor="let item of product.products">
+            {{item}}
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</div>
